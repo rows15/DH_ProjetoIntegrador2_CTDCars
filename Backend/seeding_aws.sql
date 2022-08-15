@@ -1,386 +1,739 @@
 -- Categorias
 INSERT INTO categories (qualificacao, descricao, url_imagem)
-VALUES ("Econômico", "Carros com baixo consumo de combustível", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/categories/economico.jpg");
+VALUES ("Econômico", "
+Carros com baixo consumo de combustível", "
+https://i.ibb.co/XbN8s5h/economico.jpg
+");
 INSERT INTO categories (qualificacao, descricao, url_imagem)
-VALUES ("Compacto", "Carros com tamanho compacto", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/categories/compacto.jpg");
+VALUES ("Compacto", "
+Carros com tamanho compacto", "
+https://i.ibb.co/pJNDhSb/compacto.jpg
+");
 INSERT INTO categories (qualificacao, descricao, url_imagem)
-VALUES ("Confort", "Carros com amplo espaço interno", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/categories/confort.jpg");
+VALUES ("Confort", "
+Carros com amplo espaço interno", "
+https://i.ibb.co/PCJyhbL/confort.jpg
+");
 INSERT INTO categories (qualificacao, descricao, url_imagem)
-VALUES ("Hatch", "Carros com traseira em formato hatch", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/categories/hatch.jpg");
+VALUES ("Hatch", "
+Carros com traseira em formato hatch", "
+https://i.ibb.co/2PWzyT2/hatch.jpg
+");
 INSERT INTO categories (qualificacao, descricao, url_imagem)
-VALUES ("Sedan", "Carros com traseira em formato sedan", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/categories/sedan.jpeg");
+VALUES ("Sedan", "
+Carros com traseira em formato sedan", "
+https://i.ibb.co/r4vt3X0/sedan.jpg
+");
 INSERT INTO categories (qualificacao, descricao, url_imagem)
-VALUES ("Pickup", "Carros com carroceria", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/categories/pickup.jpg");
+VALUES ("Pickup", "
+Carros com carroceria", "
+https://i.ibb.co/sjgdxPz/pickup.jpg
+");
 INSERT INTO categories (qualificacao, descricao, url_imagem)
-VALUES ("Elétrico", "Carros movidos a energia elétrica", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/categories/eletrico.jpg");
+VALUES ("Elétrico", "
+Carros movidos a energia elétrica", "
+https://i.ibb.co/f4nZhfp/eletrico.jpg
+");
 INSERT INTO categories (qualificacao, descricao, url_imagem)
-VALUES ("Minivan", "Carros a partir de 6 lugares", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/categories/minivan.jpg");
+VALUES ("Minivan", "
+Carros a partir de 6 lugares", "
+https://i.ibb.co/xGdpgG2/minivan.jpg
+");
 INSERT INTO categories (qualificacao, descricao, url_imagem)
-VALUES ("SUV", "Carros utilitários adaptados para vias urbanas e terrenos irregulares", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/categories/suv.jpg");
+VALUES ("SUV", "
+Carros utilitários adaptados para vias urbanas e terrenos irregulares", "
+https://i.ibb.co/MCM3qv2/suv.jpg
+");
 
 -- Images
 INSERT INTO images (titulo, url)
-VALUES ("Caoa Chery Arrizo 6 - 1", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/caoa-chery-arrizo6-1.jpeg");
-INSERT INTO images (titulo, url)
-VALUES ("Caoa Chery Arrizo 6 - 2", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/caoa-chery-arrizo6-2.jpeg");
-INSERT INTO images (titulo, url)
-VALUES ("Caoa Chery Arrizo 6 - 3", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/caoa-chery-arrizo6-3.jpeg");
-INSERT INTO images (titulo, url)
-VALUES ("Caoa Chery iCar - 1", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/caoa-chery-icar-1.jpeg");
-INSERT INTO images (titulo, url)
-VALUES ("Caoa Chery iCar - 2", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/caoa-chery-icar-2.jpeg");
-INSERT INTO images (titulo, url)
-VALUES ("Caoa Chery iCar - 3", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/caoa-chery-icar-3.jpeg");
-INSERT INTO images (titulo, url)
-VALUES ("Caoa Chery iCar - 4", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/caoa-chery-icar-4.jpeg");
-INSERT INTO images (titulo, url)
-VALUES ("Caoa Chery Tiggo 7 Pro Hybrid - 1", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/caoa-chery-tiggo7-pro-hybrid-1.jpeg");
-INSERT INTO images (titulo, url)
-VALUES ("Caoa Chery Tiggo 7 Pro Hybrid - 2", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/caoa-chery-tiggo7-pro-hybrid-2.jpeg");
-INSERT INTO images (titulo, url)
-VALUES ("Caoa Chery Tiggo 7 Pro Hybrid - 3", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/caoa-chery-tiggo7-pro-hybrid-3.jpeg");
-INSERT INTO images (titulo, url)
-VALUES ("Caoa Chery Tiggo 8 - 1", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/caoa-chery-tiggo8-1.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Caoa Chery Tiggo 8 - 2", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/caoa-chery-tiggo8-2.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Caoa Chery Tiggo 8 - 3", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/caoa-chery-tiggo8-3.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Caoa Chery Tiggo 8 - 4", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/caoa-chery-tiggo8-4.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Caoa Chery Tiggo 8 - 5", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/caoa-chery-tiggo8-5.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Caoa Chery Tiggo 8 - 6", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/caoa-chery-tiggo8-6.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Chevrolet Bolt - 1", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/chevrolet-bolt-1.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Chevrolet Bolt - 2", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/chevrolet-bolt-2.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Chevrolet Bolt - 3", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/chevrolet-bolt-3.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Chevrolet Bolt - 4", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/chevrolet-bolt-4.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Chevrolet Bolt - 5", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/chevrolet-bolt-5.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Chevrolet Bolt - 6", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/chevrolet-bolt-6.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Chevrolet Cruze - 1", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/chevrolet-cruze-1.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Chevrolet Cruze - 2", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/chevrolet-cruze-2.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Chevrolet Cruze - 3", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/chevrolet-cruze-3.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Chevrolet Cruze - 4", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/chevrolet-cruze-4.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Chevrolet Cruze - 5", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/chevrolet-cruze-5.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Chevrolet Cruze - 6", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/chevrolet-cruze-6.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Chevrolet Cruze Premier - 1", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/chevrolet-cruze-premier-1.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Chevrolet Cruze Premier - 2", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/chevrolet-cruze-premier-2.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Chevrolet Cruze Premier - 3", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/chevrolet-cruze-premier-3.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Chevrolet Cruze Premier - 4", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/chevrolet-cruze-premier-4.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Chevrolet Cruze Premier - 5", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/chevrolet-cruze-premier-5.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Chevrolet Cruze Premier - 6", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/chevrolet-cruze-premier-6.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Chevrolet Onix - 1", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/chevrolet-onix-1.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Chevrolet Onix - 2", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/chevrolet-onix-2.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Chevrolet Onix - 3", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/chevrolet-onix-3.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Chevrolet Onix - 4", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/chevrolet-onix-4.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Chevrolet Onix - 5", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/chevrolet-onix-5.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Chevrolet S10 - 1", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/chevrolet-s10-1.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Chevrolet S10 - 2", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/chevrolet-s10-2.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Chevrolet S10 - 3", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/chevrolet-s10-3.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Chevrolet S10 - 4", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/chevrolet-s10-4.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Chevrolet S10 - 5", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/chevrolet-s10-5.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Chevrolet S10 - 6", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/chevrolet-s10-6.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Chevrolet Spin - 1", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/chevrolet-spin-1.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Chevrolet Spin - 2", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/chevrolet-spin-2.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Chevrolet Spin - 3", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/chevrolet-spin-3.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Chevrolet Spin - 4", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/chevrolet-spin-4.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Chevrolet Spin - 5", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/chevrolet-spin-5.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Chevrolet Tracker - 1", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/chevrolet-tracker-1.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Chevrolet Tracker - 2", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/chevrolet-tracker-2.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Chevrolet Tracker - 3", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/chevrolet-tracker-3.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Chevrolet Tracker - 4", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/chevrolet-tracker-4.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Chevrolet Tracker - 5", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/chevrolet-tracker-5.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Fiat 500e - 1", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/fiat-500e-1.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Fiat 500e - 2", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/fiat-500e-2.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Fiat 500e - 3", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/fiat-500e-3.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Fiat Argo - 1", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/fiat-argo-1.jpeg");
-INSERT INTO images (titulo, url)
-VALUES ("Fiat Argo - 2", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/fiat-argo-2.jpeg");
-INSERT INTO images (titulo, url)
-VALUES ("Fiat Cronos - 1", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/fiat-cronos-1.jpeg");
-INSERT INTO images (titulo, url)
-VALUES ("Fiat Cronos - 2", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/fiat-cronos-2.jpeg");
-INSERT INTO images (titulo, url)
-VALUES ("Fiat Mobi - 1", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/fiat-mobi-1.jpeg");
-INSERT INTO images (titulo, url)
-VALUES ("Fiat Mobi - 2", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/fiat-mobi-2.jpeg");
-INSERT INTO images (titulo, url)
-VALUES ("Fiat Mobi Trekking - 1", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/fiat-mobi-trekking-1.jpeg");
-INSERT INTO images (titulo, url)
-VALUES ("Fiat Mobi Trekking - 2", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/fiat-mobi-trekking-2.jpeg");
-INSERT INTO images (titulo, url)
-VALUES ("Fiat Pulse - 1", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/fiat-pulse-1.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Fiat Pulse - 2", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/fiat-pulse-2.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Fiat Pulse - 3", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/fiat-pulse-3.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Fiat Strada - 1", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/fiat-strada-1.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Fiat Strada - 2", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/fiat-strada-2.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Fiat Strada Cabine Dupla - 1", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/fiat-strada-dupla-1.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Fiat Strada Cabine Dupla - 2", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/fiat-strada-dupla-2.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Fiat Strada Cabine Dupla - 3", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/fiat-strada-dupla-3.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Fiat Strada Cabine Dupla - 4", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/fiat-strada-dupla-4.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Fiat Toro - 1", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/fiat-toro-1.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Fiat Toro - 2", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/fiat-toro-2.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Fiat Toro - 3", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/fiat-toro-3.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Fiat Toro - 4", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/fiat-toro-4.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Ford Bronco Sport - 1", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/ford-bronco-sport-1.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Ford Bronco Sport - 2", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/ford-bronco-sport-2.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Ford Bronco Sport - 3", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/ford-bronco-sport-3.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Ford Bronco Sport - 4", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/ford-bronco-sport-4.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Ford Maverick - 1", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/ford-maverick-1.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Ford Maverick - 2", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/ford-maverick-2.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Ford Maverick - 3", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/ford-maverick-3.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Ford Maverick - 4", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/ford-maverick-4.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Ford Ranger - 1", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/ford-ranger-1.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Ford Ranger - 2", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/ford-ranger-2.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Ford Ranger - 3", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/ford-ranger-3.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Ford Ranger - 4", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/ford-ranger-4.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Ford Territory - 1", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/ford-territory-1.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Ford Territory - 2", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/ford-territory-2.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Ford Territory - 3", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/ford-territory-3.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Ford Territory - 4", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/ford-territory-4.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Hyundai Creta - 1", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/hyundai-creta-1.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Hyundai Creta - 2", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/hyundai-creta-2.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Hyundai Creta - 3", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/hyundai-creta-3.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Hyundai Creta - 4", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/hyundai-creta-4.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Hyundai Creta - 5", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/hyundai-creta-5.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Hyundai Creta - 6", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/hyundai-creta-6.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Hyundai HB20 - 1", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/hyundai-hb20-1.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Hyundai HB20 - 2", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/hyundai-hb20-2.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Hyundai HB20 - 3", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/hyundai-hb20-3.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Hyundai HB20 - 4", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/hyundai-hb20-4.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Hyundai HB20 - 5", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/hyundai-hb20-5.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Hyundai HB20 - 6", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/hyundai-hb20-6.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Hyundai HB20S - 1", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/hyundai-hb20s-1.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Hyundai HB20S - 2", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/hyundai-hb20s-2.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Hyundai HB20S - 3", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/hyundai-hb20s-3.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Hyundai HB20S - 4", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/hyundai-hb20s-4.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Hyundai HB20S - 5", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/hyundai-hb20s-5.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Hyundai HB20S - 6", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/hyundai-hb20s-6.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Mitsubishi L200 Triton Outdoor - 1", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/mitsubishi-l200-triton-outdoor-1.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Mitsubishi L200 Triton Outdoor - 2", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/mitsubishi-l200-triton-outdoor-2.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Mitsubishi L200 Triton Outdoor - 3", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/mitsubishi-l200-triton-outdoor-3.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Mitsubishi Pajero Sport - 1", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/mitsubishi-pajero-sport-1.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Mitsubishi Pajero Sport - 2", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/mitsubishi-pajero-sport-2.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Mitsubishi Pajero Sport - 3", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/mitsubishi-pajero-sport-3.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Mitsubishi Pajero Sport - 4", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/mitsubishi-pajero-sport-4.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Nissan Kicks - 1", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/nissan-kicks-1.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Nissan Kicks - 2", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/nissan-kicks-2.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Nissan Kicks - 3", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/nissan-kicks-3.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Nissan Kicks - 4", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/nissan-kicks-4.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Nissan Kicks - 5", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/nissan-kicks-5.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Nissan Kicks - 6", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/nissan-kicks-6.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Nissan Leaf - 1", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/nissan-leaf-1.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Nissan Leaf - 2", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/nissan-leaf-2.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Nissan Leaf - 3", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/nissan-leaf-3.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Nissan Leaf - 4", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/nissan-leaf-4.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Nissan Leaf - 5", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/nissan-leaf-5.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Nissan Leaf - 6", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/nissan-leaf-6.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Renault Sandero - 1", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/renault-sandero-1.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Renault Sandero - 2", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/renault-sandero-2.jpg");
-INSERT INTO images (titulo, url)
-VALUES ("Renault Sandero - 3", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/products/renault-sandero-3.jpg");
+VALUES ("Caoa Chery Arrizo 6 - 1", "
+https://i.ibb.co/ncnj3t3/caoa-chery-arrizo6-1.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Caoa Chery Arrizo 6 - 2", "
+https://i.ibb.co/C6gG5X0/caoa-chery-arrizo6-2.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Caoa Chery Arrizo 6 - 3", "
+https://i.ibb.co/r4vt3X0/sedan.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Caoa Chery iCar - 1", "
+https://i.ibb.co/XkfP1Tp/caoa-chery-icar-1.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Caoa Chery iCar - 2", "
+https://i.ibb.co/zQj87XZ/caoa-chery-icar-2.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Caoa Chery iCar - 3", "
+https://i.ibb.co/0GXSZgC/caoa-chery-icar-3.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Caoa Chery iCar - 4", "
+https://i.ibb.co/F8RyRst/caoa-chery-icar-4.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Caoa Chery Tiggo 7 Pro Hybrid - 1", "
+https://i.ibb.co/2tTPZdT/caoa-chery-tiggo7-pro-hybrid-1.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Caoa Chery Tiggo 7 Pro Hybrid - 2", "
+https://i.ibb.co/4jyP0Dm/caoa-chery-tiggo7-pro-hybrid-2.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Caoa Chery Tiggo 7 Pro Hybrid - 3", "
+https://i.ibb.co/VTcS05R/caoa-chery-tiggo7-pro-hybrid-3.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Caoa Chery Tiggo 8 - 1", "
+https://i.ibb.co/R7Mx7qM/caoa-chery-tiggo8-1.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Caoa Chery Tiggo 8 - 2", "
+https://i.ibb.co/3d8GH57/caoa-chery-tiggo8-2.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Caoa Chery Tiggo 8 - 3", "
+https://i.ibb.co/rdffnxL/caoa-chery-tiggo8-3.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Caoa Chery Tiggo 8 - 4", "
+https://i.ibb.co/CtjCYqm/caoa-chery-tiggo8-4.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Caoa Chery Tiggo 8 - 5", "
+https://i.ibb.co/dPqjc2T/caoa-chery-tiggo8-5.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Caoa Chery Tiggo 8 - 6", "
+https://i.ibb.co/C0r6vkJ/caoa-chery-tiggo8-6.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Chevrolet Bolt - 1", "
+https://i.ibb.co/7Q6hCD9/chevrolet-bolt-1.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Chevrolet Bolt - 2", "
+https://i.ibb.co/T0zp3dV/chevrolet-bolt-2.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Chevrolet Bolt - 3", "
+https://i.ibb.co/2knp5br/chevrolet-bolt-3.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Chevrolet Bolt - 4", "
+https://i.ibb.co/njC72b5/chevrolet-bolt-4.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Chevrolet Bolt - 5", "
+https://i.ibb.co/QM2TsbV/chevrolet-bolt-5.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Chevrolet Bolt - 6", "
+https://i.ibb.co/Js2JyB0/chevrolet-bolt-6.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Chevrolet Cruze - 1", "
+https://i.ibb.co/YWbCp1f/chevrolet-cruze-1.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Chevrolet Cruze - 2", "
+https://i.ibb.co/HNDLV2S/chevrolet-cruze-2.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Chevrolet Cruze - 3", "
+https://i.ibb.co/zrBTCp8/chevrolet-cruze-3.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Chevrolet Cruze - 4", "
+https://i.ibb.co/StY09FQ/chevrolet-cruze-4.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Chevrolet Cruze - 5", "
+https://i.ibb.co/yStp4RB/chevrolet-cruze-5.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Chevrolet Cruze - 6", "
+https://i.ibb.co/wr4DrtV/chevrolet-cruze-6.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Chevrolet Cruze Premier - 1", "
+https://i.ibb.co/qy4bHWG/chevrolet-cruze-premier-1.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Chevrolet Cruze Premier - 2", "
+https://i.ibb.co/M6P65dW/chevrolet-cruze-premier-2.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Chevrolet Cruze Premier - 3", "
+https://i.ibb.co/CJnkGRL/chevrolet-cruze-premier-3.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Chevrolet Cruze Premier - 4", "
+https://i.ibb.co/wwMsQqv/chevrolet-cruze-premier-4.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Chevrolet Cruze Premier - 5", "
+https://i.ibb.co/RNphYkg/chevrolet-cruze-premier-5.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Chevrolet Cruze Premier - 6", "
+https://i.ibb.co/NV9y2SM/chevrolet-cruze-premier-6.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Chevrolet Onix - 1", "
+https://i.ibb.co/XbN8s5h/economico.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Chevrolet Onix - 2", "
+https://i.ibb.co/DM2zqxv/chevrolet-onix-2.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Chevrolet Onix - 3", "
+https://i.ibb.co/KDB2GKs/chevrolet-onix-3.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Chevrolet Onix - 4", "
+https://i.ibb.co/nRR0sGc/chevrolet-onix-4.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Chevrolet Onix - 5", "
+https://i.ibb.co/KXCcqHy/chevrolet-onix-5.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Chevrolet S10 - 1", "
+https://i.ibb.co/m9Zk6RV/chevrolet-s10-1.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Chevrolet S10 - 2", "
+https://i.ibb.co/QQZMGHM/chevrolet-s10-2.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Chevrolet S10 - 3", "
+https://i.ibb.co/Ny0VRsn/chevrolet-s10-3.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Chevrolet S10 - 4", "
+https://i.ibb.co/R6BJJF4/chevrolet-s10-4.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Chevrolet S10 - 5", "
+https://i.ibb.co/sJcmYGg/chevrolet-s10-5.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Chevrolet S10 - 6", "
+https://i.ibb.co/zrysYWk/chevrolet-s10-6.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Chevrolet Spin - 1", "
+https://i.ibb.co/B2QDJPb/chevrolet-spin-1.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Chevrolet Spin - 2", "
+https://i.ibb.co/CKTvXGQ/chevrolet-spin-2.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Chevrolet Spin - 3", "
+https://i.ibb.co/K9FShnL/chevrolet-spin-3.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Chevrolet Spin - 4", "
+https://i.ibb.co/ccN9Vt3/chevrolet-spin-4.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Chevrolet Spin - 5", "
+https://i.ibb.co/xGdpgG2/minivan.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Chevrolet Tracker - 1", "
+https://i.ibb.co/MCM3qv2/suv.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Chevrolet Tracker - 2", "
+https://i.ibb.co/z8mNjyh/chevrolet-tracker-2.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Chevrolet Tracker - 3", "
+https://i.ibb.co/QvvjPDC/chevrolet-tracker-3.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Chevrolet Tracker - 4", "
+https://i.ibb.co/fG1kBDZ/chevrolet-tracker-4.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Chevrolet Tracker - 5", "
+https://i.ibb.co/QPKxzBk/chevrolet-tracker-5.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Fiat 500e - 1", "
+https://i.ibb.co/pJNDhSb/compacto.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Fiat 500e - 2", "
+https://i.ibb.co/yg2Lk2S/fiat-500e-2.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Fiat 500e - 3", "
+https://i.ibb.co/1MyH0T4/fiat-500e-3.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Fiat Argo - 1", "
+https://i.ibb.co/crKVtSV/fiat-argo-1.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Fiat Argo - 2", "
+https://i.ibb.co/8YF30zx/fiat-argo-2.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Fiat Cronos - 1", "
+https://i.ibb.co/qJVJ25L/fiat-cronos-1.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Fiat Cronos - 2", "
+https://i.ibb.co/b6WHn1P/fiat-cronos-2.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Fiat Mobi - 1", "
+https://i.ibb.co/ySDPmGG/fiat-mobi-1.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Fiat Mobi - 2", "
+https://i.ibb.co/KrFfdck/fiat-mobi-2.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Fiat Mobi Trekking - 1", "
+https://i.ibb.co/Jm5wjrF/fiat-mobi-trekking-1.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Fiat Mobi Trekking - 2", "
+https://i.ibb.co/nwLVyzF/fiat-mobi-trekking-2.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Fiat Pulse - 1", "
+https://i.ibb.co/x7y5mbg/fiat-pulse-1.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Fiat Pulse - 2", "
+https://i.ibb.co/C89fGth/fiat-pulse-2.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Fiat Pulse - 3", "
+https://i.ibb.co/PCJyhbL/confort.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Fiat Strada - 1", "
+https://i.ibb.co/YpRcXxZ/fiat-strada-1.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Fiat Strada - 2", "
+https://i.ibb.co/42DYPVp/fiat-strada-2.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Fiat Strada Cabine Dupla - 1", "
+https://i.ibb.co/StGkRXR/fiat-strada-dupla-1.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Fiat Strada Cabine Dupla - 2", "
+https://i.ibb.co/6vyWXvS/fiat-strada-dupla-2.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Fiat Strada Cabine Dupla - 3", "
+https://i.ibb.co/NSGrQzK/fiat-strada-dupla-3.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Fiat Strada Cabine Dupla - 4", "
+https://i.ibb.co/ysNfDSr/fiat-strada-dupla-4.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Fiat Toro - 1", "
+https://i.ibb.co/HxFHnq9/fiat-toro-1.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Fiat Toro - 2", "
+https://i.ibb.co/qrr39VD/fiat-toro-2.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Fiat Toro - 3", "
+https://i.ibb.co/Jnr1NVR/fiat-toro-3.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Fiat Toro - 4", "
+https://i.ibb.co/p0dwcjh/fiat-toro-4.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Ford Bronco Sport - 1", "
+https://i.ibb.co/mBRbRFL/ford-bronco-sport-1.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Ford Bronco Sport - 2", "
+https://i.ibb.co/gTGHYg5/ford-bronco-sport-2.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Ford Bronco Sport - 3", "
+https://i.ibb.co/bv7GWxV/ford-bronco-sport-3.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Ford Bronco Sport - 4", "
+https://i.ibb.co/FxQJPXX/ford-bronco-sport-4.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Ford Maverick - 1", "
+https://i.ibb.co/QvmwgYX/ford-maverick-1.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Ford Maverick - 2", "
+https://i.ibb.co/D9rysnb/ford-maverick-2.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Ford Maverick - 3", "
+https://i.ibb.co/WyVp0Np/ford-maverick-3.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Ford Maverick - 4", "
+https://i.ibb.co/C8Tq812/ford-maverick-4.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Ford Ranger - 1", "
+https://i.ibb.co/mF6nV19/ford-ranger-1.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Ford Ranger - 2", "
+https://i.ibb.co/sjgdxPz/pickup.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Ford Ranger - 3", "
+https://i.ibb.co/x2SMZ5Q/ford-ranger-3.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Ford Ranger - 4", "
+https://i.ibb.co/V2K198G/ford-ranger-4.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Ford Territory - 1", "
+https://i.ibb.co/PgYKq4M/ford-territory-1.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Ford Territory - 2", "
+https://i.ibb.co/HnkFZ5K/ford-territory-2.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Ford Territory - 3", "
+https://i.ibb.co/gjkxnL7/ford-territory-3.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Ford Territory - 4", "
+https://i.ibb.co/6rMHLqB/ford-territory-4.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Hyundai Creta - 1", "
+https://i.ibb.co/JBsxX4b/hyundai-creta-1.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Hyundai Creta - 2", "
+https://i.ibb.co/s37w5HQ/hyundai-creta-2.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Hyundai Creta - 3", "
+https://i.ibb.co/L6rQDQW/hyundai-creta-3.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Hyundai Creta - 4", "
+https://i.ibb.co/HqYWwDw/hyundai-creta-4.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Hyundai Creta - 5", "
+https://i.ibb.co/2WzVJFQ/hyundai-creta-5.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Hyundai Creta - 6", "
+https://i.ibb.co/pn5wjgq/hyundai-creta-6.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Hyundai HB20 - 1", "
+https://i.ibb.co/2PWzyT2/hatch.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Hyundai HB20 - 2", "
+https://i.ibb.co/dcsBprC/hyundai-hb20-2.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Hyundai HB20 - 3", "
+https://i.ibb.co/TYq9ZV0/hyundai-hb20-3.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Hyundai HB20 - 4", "
+https://i.ibb.co/WKDBQVX/hyundai-hb20-4.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Hyundai HB20 - 5", "
+https://i.ibb.co/R97sWXf/hyundai-hb20-5.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Hyundai HB20 - 6", "
+https://i.ibb.co/S7JwGNX/hyundai-hb20-6.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Hyundai HB20S - 1", "
+https://i.ibb.co/MgyMn79/hyundai-hb20s-1.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Hyundai HB20S - 2", "
+https://i.ibb.co/z4rW7Vy/hyundai-hb20s-2.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Hyundai HB20S - 3", "
+https://i.ibb.co/Zgq3t3v/hyundai-hb20s-3.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Hyundai HB20S - 4", "
+https://i.ibb.co/BgTNvbC/hyundai-hb20s-4.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Hyundai HB20S - 5", "
+https://i.ibb.co/MDcctmm/hyundai-hb20s-5.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Hyundai HB20S - 6", "
+https://i.ibb.co/0qMwfjD/hyundai-hb20s-6.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Mitsubishi L200 Triton Outdoor - 1", "
+https://i.ibb.co/FJ2vK1w/mitsubishi-l200-triton-outdoor-1.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Mitsubishi L200 Triton Outdoor - 2", "
+https://i.ibb.co/16Tk4nL/mitsubishi-l200-triton-outdoor-2.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Mitsubishi L200 Triton Outdoor - 3", "
+https://i.ibb.co/JQdmwW1/mitsubishi-l200-triton-outdoor-3.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Mitsubishi Pajero Sport - 1", "
+https://i.ibb.co/hLwh7fz/mitsubishi-pajero-sport-1.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Mitsubishi Pajero Sport - 2", "
+https://i.ibb.co/NW8Jr8P/mitsubishi-pajero-sport-2.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Mitsubishi Pajero Sport - 3", "
+https://i.ibb.co/nBnmWCK/mitsubishi-pajero-sport-3.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Mitsubishi Pajero Sport - 4", "
+https://i.ibb.co/Lz0bvVd/mitsubishi-pajero-sport-4.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Nissan Kicks - 1", "
+https://i.ibb.co/JrCT1T8/nissan-kicks-1.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Nissan Kicks - 2", "
+https://i.ibb.co/4gbJK2p/nissan-kicks-2.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Nissan Kicks - 3", "
+https://i.ibb.co/J7fwwgH/nissan-kicks-3.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Nissan Kicks - 4", "
+https://i.ibb.co/7SX36xM/nissan-kicks-4.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Nissan Kicks - 5", "
+https://i.ibb.co/0tQ7GGL/nissan-kicks-5.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Nissan Kicks - 6", "
+https://i.ibb.co/2ymFLdR/nissan-kicks-6.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Nissan Leaf - 1", "
+https://i.ibb.co/f4nZhfp/eletrico.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Nissan Leaf - 2", "
+https://i.ibb.co/vxgBSFh/nissan-leaf-2.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Nissan Leaf - 3", "
+https://i.ibb.co/rQDdD5s/nissan-leaf-3.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Nissan Leaf - 4", "
+https://i.ibb.co/Bjc1bmp/nissan-leaf-4.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Nissan Leaf - 5", "
+https://i.ibb.co/6RGxvf9/nissan-leaf-5.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Nissan Leaf - 6", "
+https://i.ibb.co/QCzKc8r/nissan-leaf-6.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Renault Sandero - 1", "
+https://i.ibb.co/61JncFK/renault-sandero-1.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Renault Sandero - 2", "
+https://i.ibb.co/Bs4dVLs/renault-sandero-2.jpg
+");
+INSERT INTO images (titulo, url)
+VALUES ("Renault Sandero - 3", "
+https://i.ibb.co/bJLzXRm/renault-sandero-3.jpg
+");
 
 -- Cities
 INSERT INTO cities (nome, estado)
-VALUES ("Curitiba", "PR");
+VALUES ("Curitiba", "
+PR
+");
 INSERT INTO cities (nome, estado)
-VALUES ("São Caetano do Sul", "SP");
+VALUES ("São Caetano do Sul", "
+SP
+");
 INSERT INTO cities (nome, estado)
-VALUES ("São Luís", "MA");
+VALUES ("São Luís", "
+MA
+");
 INSERT INTO cities (nome, estado)
-VALUES ("São Paulo", "SP");
+VALUES ("São Paulo", "
+SP
+");
 INSERT INTO cities (nome, estado)
-VALUES ("Sorocaba", "SP");
+VALUES ("Sorocaba", "
+SP
+");
 INSERT INTO cities (nome, estado)
-VALUES ("Rio de Janeiro", "RJ");
+VALUES ("Rio de Janeiro", "
+RJ
+");
 INSERT INTO cities (nome, estado)
-VALUES ("Belo Horizonte", "MG");
+VALUES ("Belo Horizonte", "
+MG
+");
 INSERT INTO cities (nome, estado)
-VALUES ("Porto Alegre", "RS");
+VALUES ("Porto Alegre", "
+RS
+");
 INSERT INTO cities (nome, estado)
-VALUES ("Salvador", "BA");
+VALUES ("Salvador", "
+BA
+");
 INSERT INTO cities (nome, estado)
-VALUES ("Recife", "PE");
+VALUES ("Recife", "
+PE
+");
 INSERT INTO cities (nome, estado)
-VALUES ("Brasília", "DF");
+VALUES ("Brasília", "
+DF
+");
 INSERT INTO cities (nome, estado)
-VALUES ("Belém", "PA");
+VALUES ("Belém", "
+PA
+");
 
 -- Products
 INSERT INTO products (nome, descricao, id_cidade, valor_diaria)
-VALUES ("Caoa Chery Arrizo 6", "O Arrizo 6 é o carro ideal para quem dirige seu próprio destino. O sedã médio com maior porta-malas da categoria também conta com muita tecnoligia e performance, com motor turbo, câmbio CVT de 9 velocidades, freio à disco nas 4 rodas, multimídia de 9'', comando de climatização a distância, câmera traseira, bancos com acabamento premium, freio eletrônico, auto hold, 6 airbags e muito mais.", 1, 128);
+VALUES ("Caoa Chery Arrizo 6", "
+O Arrizo 6 é o carro ideal para quem dirige seu próprio destino. O sedã médio com maior porta-malas da categoria também conta com muita tecnoligia e performance, com motor turbo, câmbio CVT de 9 velocidades, freio à disco nas 4 rodas, multimídia de 9'', comando de climatização a distância, câmera traseira, bancos com acabamento premium, freio eletrônico, auto hold, 6 airbags e muito mais.", 1, 128);
 INSERT INTO products (nome, descricao, id_cidade, valor_diaria)
-VALUES ("Caoa Chery iCar", "O iCar é o novo modelo 100% elétrico da CAOA Chery que traz uma experiência única de dirigir. O sistema regenerativo de energia recupera carga nas frenagens – o que permite uma maior autonomia. Seu sistema de carregamento é facilmente adaptável para tomadas 220v e leva menos de 05 horas uma carga completa.", 2, 145);
+VALUES ("Caoa Chery iCar", "
+O iCar é o novo modelo 100% elétrico da CAOA Chery que traz uma experiência única de dirigir. O sistema regenerativo de energia recupera carga nas frenagens – o que permite uma maior autonomia. Seu sistema de carregamento é facilmente adaptável para tomadas 220v e leva menos de 05 horas uma carga completa.", 2, 145);
 INSERT INTO products (nome, descricao, id_cidade, valor_diaria)
-VALUES ("Caoa Chery Tiggo 7 Pro Hybrid", "O Tiggo 7 Pro Hybrid conta com o sistema Híbrido 48V, que está baseado na troca do alternador tradicional por um gerador capaz de gerar energia para carregar o sistema e fornecer torque e potência adicionais ao motor de combustão quando solicitado, auxiliando na movimentação do veículo.", 3, 202);
+VALUES ("Caoa Chery Tiggo 7 Pro Hybrid", "
+O Tiggo 7 Pro Hybrid conta com o sistema Híbrido 48V, que está baseado na troca do alternador tradicional por um gerador capaz de gerar energia para carregar o sistema e fornecer torque e potência adicionais ao motor de combustão quando solicitado, auxiliando na movimentação do veículo.", 3, 202);
 INSERT INTO products (nome, descricao, id_cidade, valor_diaria)
-VALUES ("Caoa Chery Tiggo 8", "O Tiggo 8 conta com muita sofisticação e espaço interno. O SUV de 7 lugares conta com motor turbo, câmbio automático tipo joystick, carregador de celular wireless, teto solar panorâmico, 6 airbags, banco do motorista e passageiro com ajustes elétricos, ar condicionado dual zone, câmera 360º, painel digital de 12,3'', multimídia de 10,25'', comando de climatização a distância, bancos com acabamento premium, freio eletrônico, auto hold, monitoramento de ponto cego e muito mais.", 4, 202);
+VALUES ("Caoa Chery Tiggo 8", "
+O Tiggo 8 conta com muita sofisticação e espaço interno. O SUV de 7 lugares conta com motor turbo, câmbio automático tipo joystick, carregador de celular wireless, teto solar panorâmico, 6 airbags, banco do motorista e passageiro com ajustes elétricos, ar condicionado dual zone, câmera 360º, painel digital de 12,3'', multimídia de 10,25'', comando de climatização a distância, bancos com acabamento premium, freio eletrônico, auto hold, monitoramento de ponto cego e muito mais.", 4, 202);
 INSERT INTO products (nome, descricao, id_cidade, valor_diaria)
-VALUES ("Chevrolet Bolt", "O Bolt EV é o novo veículo 100% elétrico da Chevrolet, com autonomia de até 416km, alerta de colisão frontal com frenagem automática de emergência, controle de tração, e alerta de mudança de faixa com alerta de ponto cego.", 5, 150);
+VALUES ("Chevrolet Bolt", "
+O Bolt EV é o novo veículo 100% elétrico da Chevrolet, com autonomia de até 416km, alerta de colisão frontal com frenagem automática de emergência, controle de tração, e alerta de mudança de faixa com alerta de ponto cego.", 5, 150);
 INSERT INTO products (nome, descricao, id_cidade, valor_diaria)
-VALUES ("Chevrolet Cruze", "O Cruze combina design ousado com tecnologia avançada. Experimente a potência do motor turbo, as inovações em segurança e a conectividade do Wi-fi nativo. Com certeza, o Cruze vai te surpreender.", 6, 140);
+VALUES ("Chevrolet Cruze", "
+O Cruze combina design ousado com tecnologia avançada. Experimente a potência do motor turbo, as inovações em segurança e a conectividade do Wi-fi nativo. Com certeza, o Cruze vai te surpreender.", 6, 140);
 INSERT INTO products (nome, descricao, id_cidade, valor_diaria)
-VALUES ("Chevrolet Cruze Premier", "O Cruze tem um visual marcante com rodas aro 17 e acabamento especial, lanternas em LED, grade frontal e parachoque mais esportivos. O interior premium com tom escurecido tem opções nas cores preto e caramelo. Dirigir o Cruze é uma experiência superior em todos os aspectos: estilo, conforto e sofisticação.", 7, 168);
+VALUES ("Chevrolet Cruze Premier", "
+O Cruze tem um visual marcante com rodas aro 17 e acabamento especial, lanternas em LED, grade frontal e parachoque mais esportivos. O interior premium com tom escurecido tem opções nas cores preto e caramelo. Dirigir o Cruze é uma experiência superior em todos os aspectos: estilo, conforto e sofisticação.", 7, 168);
 INSERT INTO products (nome, descricao, id_cidade, valor_diaria)
-VALUES ("Chevrolet Onix", "Esse hatch da Chevrolet vai surpreender você a cada novo percurso. Além de um design moderno, com rodas de liga leve de 16” e grande frontal com detalhes cromados, no Onix 2023, você chega a qualquer lugar, com muito estilo: com faróis dianteiros tipo projetor, luz de condução diurna em LED e lanternas em LED.", 8, 77);
+VALUES ("Chevrolet Onix", "
+Esse hatch da Chevrolet vai surpreender você a cada novo percurso. Além de um design moderno, com rodas de liga leve de 16” e grande frontal com detalhes cromados, no Onix 2023, você chega a qualquer lugar, com muito estilo: com faróis dianteiros tipo projetor, luz de condução diurna em LED e lanternas em LED.", 8, 77);
 INSERT INTO products (nome, descricao, id_cidade, valor_diaria)
-VALUES ("Chevrolet S10", "A S10 Cabine Simples impressiona com o motor 2.8l turbo-diesel de alta performance com 200cv de potência. Feita pra superar qualquer desafio, ela tem controle eletrônico de tração 4x4, 51mfkg de torque e capacidade de carga para mais de uma tonelada.", 9, 239);
+VALUES ("Chevrolet S10", "
+A S10 Cabine Simples impressiona com o motor 2.8l turbo-diesel de alta performance com 200cv de potência. Feita pra superar qualquer desafio, ela tem controle eletrônico de tração 4x4, 51mfkg de torque e capacidade de carga para mais de uma tonelada.", 9, 239);
 INSERT INTO products (nome, descricao, id_cidade, valor_diaria)
-VALUES ("Chevrolet Spin", "O Spin combina estilo e espaço para se adaptar a todas as ocasiões da sua vida, seja uma viagem com os amigos ou no dia a dia na família. Além de um visual mais sofisticado e toda a segurança da Chevrolet, você conta com configurações inéditas e tecnologias inovadoras, que fazem dele a escolha mais completa do mercado.", 10, 103);
+VALUES ("Chevrolet Spin", "
+O Spin combina estilo e espaço para se adaptar a todas as ocasiões da sua vida, seja uma viagem com os amigos ou no dia a dia na família. Além de um visual mais sofisticado e toda a segurança da Chevrolet, você conta com configurações inéditas e tecnologias inovadoras, que fazem dele a escolha mais completa do mercado.", 10, 103);
 INSERT INTO products (nome, descricao, id_cidade, valor_diaria)
-VALUES ("Chevrolet Tracker", "Dirigir o Chevrolet Tracker é tão confortável quanto estar em casa. Para isso, ele conta com diversas funções práticas e inteligentes, como os sistemas de partida sem chave, botão start stop, controlador de velocidade de cruzeiro, sensor de chuva e muito mais. Além de controles do rádio e telefone no volante e ar condicionado digital.", 11, 115);
+VALUES ("Chevrolet Tracker", "
+Dirigir o Chevrolet Tracker é tão confortável quanto estar em casa. Para isso, ele conta com diversas funções práticas e inteligentes, como os sistemas de partida sem chave, botão start stop, controlador de velocidade de cruzeiro, sensor de chuva e muito mais. Além de controles do rádio e telefone no volante e ar condicionado digital.", 11, 115);
 INSERT INTO products (nome, descricao, id_cidade, valor_diaria)
-VALUES ("Fiat 500e", "O Fiat 500e pode alcançar uma autonomia de até 460km, dependendo do modo de direção, condições de tráfego e temperatura externa. Em casos de uso mais intenso, essa autonomia pode ir até 270km. Ou seja, mais do que o suficiente para seus trajetos do dia a dia.", 12, 256);
+VALUES ("Fiat 500e", "
+O Fiat 500e pode alcançar uma autonomia de até 460km, dependendo do modo de direção, condições de tráfego e temperatura externa. Em casos de uso mais intenso, essa autonomia pode ir até 270km. Ou seja, mais do que o suficiente para seus trajetos do dia a dia.", 12, 256);
 INSERT INTO products (nome, descricao, id_cidade, valor_diaria)
-VALUES ("Fiat Argo", "Longe do solo e perto da sua próxima aventura, o Fiat Argo está com um design ainda mais robusto e aventureiro. Sua grade frontal também ficou mais invocada e ganhou novidades como o detalhe da flag italiana e o novo logo Fiat.", 1, 77);
+VALUES ("Fiat Argo", "
+Longe do solo e perto da sua próxima aventura, o Fiat Argo está com um design ainda mais robusto e aventureiro. Sua grade frontal também ficou mais invocada e ganhou novidades como o detalhe da flag italiana e o novo logo Fiat.", 1, 77);
 INSERT INTO products (nome, descricao, id_cidade, valor_diaria)
-VALUES ("Fiat Cronos", "No Cronos, a sofisticação é tamanho família. Além de um interior espaçoso e um porta-malas com incríveis 525L, os detalhes externos cromados e a nova grade com a Fiat Flag dão mais requinte ao carro.", 4, 89);
+VALUES ("Fiat Cronos", "
+No Cronos, a sofisticação é tamanho família. Além de um interior espaçoso e um porta-malas com incríveis 525L, os detalhes externos cromados e a nova grade com a Fiat Flag dão mais requinte ao carro.", 4, 89);
 INSERT INTO products (nome, descricao, id_cidade, valor_diaria)
-VALUES ("Fiat Mobi", "Um verdadeiro desbravador das ruas, o Fiat Mobi possui um desgin jovem pensado para encarar as ruas e avenidas com muita presença e estilo.", 6, 65);
+VALUES ("Fiat Mobi", "
+Um verdadeiro desbravador das ruas, o Fiat Mobi possui um desgin jovem pensado para encarar as ruas e avenidas com muita presença e estilo.", 6, 65);
 INSERT INTO products (nome, descricao, id_cidade, valor_diaria)
-VALUES ("Fiat Mobi Trekking", "A qualidade do acabamento interno do Fiat Mobi é impecável. O volante ganhou o novo logo Fiat e os bancos receberam a estilização Trekking. O design da versão Trekking ficou mais moderno e robusto. Além da nova grade com logo Fiat e flag italiana, ele tem o exclusivo design bicolor e adesivos exclusivos.", 7, 68);
+VALUES ("Fiat Mobi Trekking", "
+A qualidade do acabamento interno do Fiat Mobi é impecável. O volante ganhou o novo logo Fiat e os bancos receberam a estilização Trekking. O design da versão Trekking ficou mais moderno e robusto. Além da nova grade com logo Fiat e flag italiana, ele tem o exclusivo design bicolor e adesivos exclusivos.", 7, 68);
 INSERT INTO products (nome, descricao, id_cidade, valor_diaria)
-VALUES ("Fiat Pulse", "Sinta o seu coração pulsar mais forte quando os seus olhos encontrarem cada detalhe do autêntico design italiano do Fiat Pulse. Em um equilíbrio perfeito entre robustez e linhas marcantes, é impossível não se apaixonar por essa novidade bellissima.", 8, 131);
+VALUES ("Fiat Pulse", "
+Sinta o seu coração pulsar mais forte quando os seus olhos encontrarem cada detalhe do autêntico design italiano do Fiat Pulse. Em um equilíbrio perfeito entre robustez e linhas marcantes, é impossível não se apaixonar por essa novidade bellissima.", 8, 131);
 INSERT INTO products (nome, descricao, id_cidade, valor_diaria)
-VALUES ("Fiat Strada", "Com o melhor volume de carga da categoria, a Strada é a solução perfeita para pessoas que buscam conforto e funcionalidade, através de uma caçamba que carrega 650kg e 1.354 litros de volume.", 10, 104);
+VALUES ("Fiat Strada", "
+Com o melhor volume de carga da categoria, a Strada é a solução perfeita para pessoas que buscam conforto e funcionalidade, através de uma caçamba que carrega 650kg e 1.354 litros de volume.", 10, 104);
 INSERT INTO products (nome, descricao, id_cidade, valor_diaria)
-VALUES ("Fiat Strada Cabine Dupla", "Com o melhor volume de carga da categoria, a Strada é a solução perfeita para pessoas que buscam conforto e funcionalidade, através de uma caçamba que carrega 600kg e 844 litros de volume.", 11, 123);
+VALUES ("Fiat Strada Cabine Dupla", "
+Com o melhor volume de carga da categoria, a Strada é a solução perfeita para pessoas que buscam conforto e funcionalidade, através de uma caçamba que carrega 600kg e 844 litros de volume.", 11, 123);
 INSERT INTO products (nome, descricao, id_cidade, valor_diaria)
-VALUES ("Fiat Toro", "De cara, você se encanta pelo novo capô. Depois, se apaixona pela nova grade superior, com o logo Fiat e o detalhe da Fiat Flag. Tudo desenhado de forma harmônica, equilibrando beleza e robustez. Não dá para negar: a frente da nova Fiat Toro ficou incrível.", 1, 143);
+VALUES ("Fiat Toro", "
+De cara, você se encanta pelo novo capô. Depois, se apaixona pela nova grade superior, com o logo Fiat e o detalhe da Fiat Flag. Tudo desenhado de forma harmônica, equilibrando beleza e robustez. Não dá para negar: a frente da nova Fiat Toro ficou incrível.", 1, 143);
 INSERT INTO products (nome, descricao, id_cidade, valor_diaria)
-VALUES ("Ford Bronco Sport", "Novo Ford Bronco Sport, um SUV imbatível. Performance e capacidade off-road excepcionais, tecnologia, conectividade e segurança para superar todo tipo de desafio: dentro e fora de estrada.", 2, 266);
+VALUES ("Ford Bronco Sport", "
+Novo Ford Bronco Sport, um SUV imbatível. Performance e capacidade off-road excepcionais, tecnologia, conectividade e segurança para superar todo tipo de desafio: dentro e fora de estrada.", 2, 266);
 INSERT INTO products (nome, descricao, id_cidade, valor_diaria)
-VALUES ("Ford Maverick", "A Nova Maverick entrega toda confiabilidade e robustez da família Raça Forte. Seu design externo é imponente e seu interior entrega muito espaço e conforto com acabamento diferenciado.", 3, 233);
+VALUES ("Ford Maverick", "
+A Nova Maverick entrega toda confiabilidade e robustez da família Raça Forte. Seu design externo é imponente e seu interior entrega muito espaço e conforto com acabamento diferenciado.", 3, 233);
 INSERT INTO products (nome, descricao, id_cidade, valor_diaria)
-VALUES ("Ford Ranger", "A Nova Ranger oferece um visual mais audacioso, novos acabamentos interiores e vem com recursos inovadores. O que não mudou é a sua variedade de versões e estilos de cabine para atender a todas as necessidades.", 4, 237);
+VALUES ("Ford Ranger", "
+A Nova Ranger oferece um visual mais audacioso, novos acabamentos interiores e vem com recursos inovadores. O que não mudou é a sua variedade de versões e estilos de cabine para atender a todas as necessidades.", 4, 237);
 INSERT INTO products (nome, descricao, id_cidade, valor_diaria)
-VALUES ("Ford Territory", "No Ford Territory, você está cercado de tecnologia, que garante muito mais segurança e conforto na hora de dirigir. Vem com piloto automático adaptativo com Stop and Go, sistema de estacionamento automático, câmera 360° com Bird-Eye View e alerta de colisão com frenagem autônoma de emergência (AEB).", 5, 215);
+VALUES ("Ford Territory", "
+No Ford Territory, você está cercado de tecnologia, que garante muito mais segurança e conforto na hora de dirigir. Vem com piloto automático adaptativo com Stop and Go, sistema de estacionamento automático, câmera 360° com Bird-Eye View e alerta de colisão com frenagem autônoma de emergência (AEB).", 5, 215);
 INSERT INTO products (nome, descricao, id_cidade, valor_diaria)
-VALUES ("Hyundai Creta", "A vida tem espaço pra mais. E a partir do CRETA Nova Geração, por onde você olhar, verá que ela sempre oferece mais. Seja pelo design único, a tecnologia de última geração, a sofisticação sem igual, a luxuosidade que supera expectativas ou o nível de segurança como você nunca viu. Esteja pronto para conhecer o SUV que elevará definitivamente os seus padrões a outro patamar. Porque a sua vida sempre pode ter espaço pra mais.", 6, 125);
+VALUES ("Hyundai Creta", "
+A vida tem espaço pra mais. E a partir do CRETA Nova Geração, por onde você olhar, verá que ela sempre oferece mais. Seja pelo design único, a tecnologia de última geração, a sofisticação sem igual, a luxuosidade que supera expectativas ou o nível de segurança como você nunca viu. Esteja pronto para conhecer o SUV que elevará definitivamente os seus padrões a outro patamar. Porque a sua vida sempre pode ter espaço pra mais.", 6, 125);
 INSERT INTO products (nome, descricao, id_cidade, valor_diaria)
-VALUES ("Hyundai HB20", "O Novo Hyundai HB20 oferece a melhor tecnologia da Hyundai em termos de segurança avançada: o SmartSense é um conjunto de assistentes e de funções ativas de segurança que te dão mais tranquilidade e proteção ao dirigir.", 7, 80);
+VALUES ("Hyundai HB20", "
+O Novo Hyundai HB20 oferece a melhor tecnologia da Hyundai em termos de segurança avançada: o SmartSense é um conjunto de assistentes e de funções ativas de segurança que te dão mais tranquilidade e proteção ao dirigir.", 7, 80);
 INSERT INTO products (nome, descricao, id_cidade, valor_diaria)
-VALUES ("Hyundai HB20S", "O Design ousado do HB20S Nova Geração possui detalhes modernos como a nova grade frontal cascading com contorno cromado, o farol com projetor Light Guide de LED, as novas curvas de ponta a ponta e a exclusividade da categoria com o Sistema de Alerta e Frenagem Autônomo.", 8, 100);
+VALUES ("Hyundai HB20S", "
+O Design ousado do HB20S Nova Geração possui detalhes modernos como a nova grade frontal cascading com contorno cromado, o farol com projetor Light Guide de LED, as novas curvas de ponta a ponta e a exclusividade da categoria com o Sistema de Alerta e Frenagem Autônomo.", 8, 100);
 INSERT INTO products (nome, descricao, id_cidade, valor_diaria)
-VALUES ("Mitsubishi L200 Triton Outdoor", "Forte, robusta e agora com novo sobrenome. A L200 Triton Outdoor vem com o DNA 4x4 de série e traz todo o know-how que a Mitsubishi Motors tem no off-road: uma picape com excelente dirigibilidade, tecnologia, conforto e segurança, aliados a um conjunto equilibrado com a força e resistência que só um verdadeiro Mitsubishi oferece.", 9, 255);
+VALUES ("Mitsubishi L200 Triton Outdoor", "
+Forte, robusta e agora com novo sobrenome. A L200 Triton Outdoor vem com o DNA 4x4 de série e traz todo o know-how que a Mitsubishi Motors tem no off-road: uma picape com excelente dirigibilidade, tecnologia, conforto e segurança, aliados a um conjunto equilibrado com a força e resistência que só um verdadeiro Mitsubishi oferece.", 9, 255);
 INSERT INTO products (nome, descricao, id_cidade, valor_diaria)
-VALUES ("Mitsubishi Pajero Sport", "Um SUV que veio para te reconectar com o mundo 4x4. Para o novo Pajero Sport o que antes era desafio, já virou conquista. Ele é a prova de que é possível unir toda história e tradição de uma lenda com novas tecnologias, capazes de levar sua experiência com um SUV ainda mais longe. Mitsubishi Pajero Sport. Um novo norte, uma nova lenda.", 10, 370);
+VALUES ("Mitsubishi Pajero Sport", "
+Um SUV que veio para te reconectar com o mundo 4x4. Para o novo Pajero Sport o que antes era desafio, já virou conquista. Ele é a prova de que é possível unir toda história e tradição de uma lenda com novas tecnologias, capazes de levar sua experiência com um SUV ainda mais longe. Mitsubishi Pajero Sport. Um novo norte, uma nova lenda.", 10, 370);
 INSERT INTO products (nome, descricao, id_cidade, valor_diaria)
-VALUES ("Nissan Kicks", "A inconfundível personalidade do Novo Kicks gera atração imediata por suas linhas arrojadas, esportivas e sofisticadas. Vinda do Futurismo Japonês Atemporal, a linguagem do design atinge um equilíbrio perfeito entre forma e funcionalidade.", 11, 109);
+VALUES ("Nissan Kicks", "
+A inconfundível personalidade do Novo Kicks gera atração imediata por suas linhas arrojadas, esportivas e sofisticadas. Vinda do Futurismo Japonês Atemporal, a linguagem do design atinge um equilíbrio perfeito entre forma e funcionalidade.", 11, 109);
 INSERT INTO products (nome, descricao, id_cidade, valor_diaria)
-VALUES ("Nissan Leaf", "O Nissan LEAF está equipado com alguns dos sistemas de assistência à direção mais avançados que existem; dessa forma, além de ser o carro pioneiro em eletrificação em massa, é o seu companheiro ideal para tornar todos os dias simplesmente incríveis.", 4, 294);
+VALUES ("Nissan Leaf", "
+O Nissan LEAF está equipado com alguns dos sistemas de assistência à direção mais avançados que existem; dessa forma, além de ser o carro pioneiro em eletrificação em massa, é o seu companheiro ideal para tornar todos os dias simplesmente incríveis.", 4, 294);
 INSERT INTO products (nome, descricao, id_cidade, valor_diaria)
-VALUES ("Renault Sandero", "O Sandero S Edition conta com o novo conjunto óptico DRL de LED, lanterna traseira com máscara negra, retrovisor externo na cor preta e novas rodas de aço. Por dentro, todo o conforto e espaço interno. Por fora, um design moderno com detalhes esportivos.​", 12, 83);
+VALUES ("Renault Sandero", "
+O Sandero S Edition conta com o novo conjunto óptico DRL de LED, lanterna traseira com máscara negra, retrovisor externo na cor preta e novas rodas de aço. Por dentro, todo o conforto e espaço interno. Por fora, um design moderno com detalhes esportivos.​", 12, 83);
 
 -- Categories_Products
 INSERT INTO categories_products (id_produto, id_categoria)
@@ -812,39 +1165,73 @@ VALUES (33, 136);
 
 -- Features
 INSERT INTO features (nome, icone)
-VALUES ("Ar condicionado", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/features/ar-condicionado.png");
+VALUES ("Ar condicionado", "
+https://i.ibb.co/TR60zmH/ar-condicionado.png
+");
 INSERT INTO features (nome, icone)
-VALUES ("2 lugares", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/features/assentos.png");
+VALUES ("2 lugares", "
+https://i.ibb.co/XCcC6tv/assentos.png
+");
 INSERT INTO features (nome, icone)
-VALUES ("4 lugares", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/features/assentos.png");
+VALUES ("4 lugares", "
+https://i.ibb.co/XCcC6tv/assentos.png
+");
 INSERT INTO features (nome, icone)
-VALUES ("5 lugares", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/features/assentos.png");
+VALUES ("5 lugares", "
+https://i.ibb.co/XCcC6tv/assentos.png
+");
 INSERT INTO features (nome, icone)
-VALUES ("7 lugares", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/features/assentos.png");
+VALUES ("7 lugares", "
+https://i.ibb.co/XCcC6tv/assentos.png
+");
 INSERT INTO features (nome, icone)
-VALUES ("Câmera de ré", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/features/camera-re.png");
+VALUES ("Câmera de ré", "
+https://i.ibb.co/b6B9xFr/camera-re.png
+");
 INSERT INTO features (nome, icone)
-VALUES ("Chave sem contato", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/features/chave-contactless.png");
+VALUES ("Chave sem contato", "
+https://i.ibb.co/Gd73Dpc/chave-contactless.png
+");
 INSERT INTO features (nome, icone)
-VALUES ("Motor elétrico", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/features/motor-eletrico.png");
+VALUES ("Motor elétrico", "
+https://i.ibb.co/5sC3r16/motor-eletrico.png
+");
 INSERT INTO features (nome, icone)
-VALUES ("Multimídia", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/features/multimidia.png");
+VALUES ("Multimídia", "
+https://i.ibb.co/8g4dmkr/multimidia.png
+");
 INSERT INTO features (nome, icone)
-VALUES ("2 portas", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/features/porta.png");
+VALUES ("2 portas", "
+https://i.ibb.co/FxThH3r/porta.png
+");
 INSERT INTO features (nome, icone)
-VALUES ("4 portas", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/features/porta.png");
+VALUES ("4 portas", "
+https://i.ibb.co/FxThH3r/porta.png
+");
 INSERT INTO features (nome, icone)
-VALUES ("Sensor de colisão dianteira", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/features/sensor-colisao-dianteira.png");
+VALUES ("Sensor de colisão dianteira", "
+https://i.ibb.co/9hwH9c8/sensor-colisao-dianteira.png
+");
 INSERT INTO features (nome, icone)
-VALUES ("Sensor de ponto cego", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/features/sensor-ponto-cego.png");
+VALUES ("Sensor de ponto cego", "
+https://i.ibb.co/0ZHmXPB/sensor-ponto-cego.png
+");
 INSERT INTO features (nome, icone)
-VALUES ("Sensores de proximidade", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/features/sensores-proximidade.png");
+VALUES ("Sensores de proximidade", "
+https://i.ibb.co/k4QrgsV/sensores-proximidade.png
+");
 INSERT INTO features (nome, icone)
-VALUES ("Transmissão automática", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/features/transmissao-automatica.png");
+VALUES ("Transmissão automática", "
+https://i.ibb.co/SdgMQPw/transmissao-automatica.png
+");
 INSERT INTO features (nome, icone)
-VALUES ("Transmissão manual", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/features/transmissao-manual.png");
+VALUES ("Transmissão manual", "
+https://i.ibb.co/T06854N/transmissao-manual.png
+");
 INSERT INTO features (nome, icone)
-VALUES ("Wi-Fi", "https://bucket-carshop-g4.s3.us-east-2.amazonaws.com/features/wi-fi.png");
+VALUES ("Wi-Fi", "
+https://i.ibb.co/sQLrhRD/wi-fi.png
+");
 
 -- Features_Products
 INSERT INTO features_products (id_produto, id_caracteristica)
@@ -1376,18 +1763,35 @@ VALUES (33, 17);
 
 -- Roles
 INSERT INTO roles (nome)
-VALUES ("Admin");
+VALUES ("Admin
+");
 INSERT INTO roles (nome)
-VALUES ("User");
+VALUES ("User
+");
 
 -- Users
 INSERT INTO users (nome, sobrenome, email, senha, id_funcao)
-VALUES ("Francieli", "Celeghim", "francieliceleghim2013@gmail.com", "$2a$10$Ke6Pw7otuKazEZWAxvuhZOH9piD9ETD4NQg.eg2l7YMA/PG.hPLzW", 1);
+VALUES ("Francieli", "
+Celeghim", "
+francieliceleghim2013@gmail.com", "
+$2a$10$Ke6Pw7otuKazEZWAxvuhZOH9piD9ETD4NQg.eg2l7YMA/PG.hPLzW", 1);
 INSERT INTO users (nome, sobrenome, email, senha, id_funcao)
-VALUES ("João Vitor", "Dutra", "joao@email.com", "$2a$10$Ke6Pw7otuKazEZWAxvuhZOH9piD9ETD4NQg.eg2l7YMA/PG.hPLzW", 1);
+VALUES ("João Vitor", "
+Dutra", "
+joao@email.com", "
+$2a$10$Ke6Pw7otuKazEZWAxvuhZOH9piD9ETD4NQg.eg2l7YMA/PG.hPLzW", 1);
 INSERT INTO users (nome, sobrenome, email, senha, id_funcao)
-VALUES ("Katherine", "Duarte", "katamarieth@gmail.com", "$2a$10$Ke6Pw7otuKazEZWAxvuhZOH9piD9ETD4NQg.eg2l7YMA/PG.hPLzW", 1);
+VALUES ("Katherine", "
+Duarte", "
+katamarieth@gmail.com", "
+$2a$10$Ke6Pw7otuKazEZWAxvuhZOH9piD9ETD4NQg.eg2l7YMA/PG.hPLzW", 1);
 INSERT INTO users (nome, sobrenome, email, senha, id_funcao)
-VALUES ("Marcelo", "Ramos", "marcelo@rows.com", "$2a$10$Ke6Pw7otuKazEZWAxvuhZOH9piD9ETD4NQg.eg2l7YMA/PG.hPLzW", 1);
+VALUES ("Marcelo", "
+Ramos", "
+marcelo@rows.com", "
+$2a$10$Ke6Pw7otuKazEZWAxvuhZOH9piD9ETD4NQg.eg2l7YMA/PG.hPLzW", 1);
 INSERT INTO users (nome, sobrenome, email, senha, id_funcao)
-VALUES ("Mateus", "Dias", "mateusdias@outlook.com", "$2a$10$Ke6Pw7otuKazEZWAxvuhZOH9piD9ETD4NQg.eg2l7YMA/PG.hPLzW", 1);
+VALUES ("Mateus", "
+Dias", "
+mateusdias@outlook.com", "
+$2a$10$Ke6Pw7otuKazEZWAxvuhZOH9piD9ETD4NQg.eg2l7YMA/PG.hPLzW", 1);
